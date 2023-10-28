@@ -19,7 +19,7 @@ body {
   margin: 0;
 }
 
-.right .login-button {
+.right .logout-button {
   background-color: black;
   color: white;
   border: none;

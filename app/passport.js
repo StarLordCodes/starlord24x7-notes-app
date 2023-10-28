@@ -1,3 +1,4 @@
+'use client'
 import { config, passport } from "@imtbl/sdk";
 
 const passportInstance = new passport.Passport({
