@@ -3,7 +3,7 @@ const nextConfig = {
     async rewrites() {
         return [
           {
-            source: '/notes*',
+            source: '/:notes*',
             destination: '/notes',
           },
         ]

@@ -8,7 +8,7 @@ async function handleLogin(){
 
 export default function Home() {
   return (
-    <div class="home-page">
+    <div className="home-page">
       <h1> Welcome to Notes App</h1>
       <h2> Login to continue</h2>
       <button onClick={handleLogin}> Login </button>
