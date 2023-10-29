@@ -8,7 +8,7 @@ import passportInstance from "../passport";
 export default function NotesPage() {
   useEffect(() => {
     window.addEventListener("load", function () {
-      passportInstance.loginCallback();
+      passportInstance.loginCallback().then(()=>console.log("promise success").catch(error=>console.log(error)));
     });
   }, []);
   return (
